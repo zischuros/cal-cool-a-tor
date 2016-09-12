@@ -1,0 +1,141 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media only print and (max-width: 600px) {
+    p {
+        display: none
+    }
+}
+
+body {
+    background-color: #b72727;
+}
+
+iframe {
+    min-height: 500px;
+    min-width: 600px;
+}
+
+#clear {
+    width: 100px;
+    height: 100px;
+    border: solid gray 1px;
+    background-color: #1db74c;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#zero,
+#add,
+#subtract,
+#multiply,
+#divide,
+#enter,
+#clear {
+    font-size: 2em;
+    width: 100px;
+    height: 100px;
+    border: solid gray 1px;
+    background-color: #2696f5;
+}
+
+#enter {
+    background-color: #e2bf2d;
+}
+
+#clear {
+    background-color: #a50808;
+}
+
+#add,
+#subtract,
+#multiply,
+#divide {
+    background-color: #23aa2e;
+}
+
+#display {
+    font-size: 2.2em;
+    width: 400px;
+    height: 100px;
+    border: solid gray 1px;
+    background-color: rgb(216, 123, 55);
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33333%
+}
+
+.col-2 {
+    width: 16.66667%
+}
+
+.col-3 {
+    width: 25%;
+}
+
+
+/* ----------- */
+
+.col-4 {
+    width: 33.33333%
+}
+
+.col-5 {
+    width: 41.66667%
+}
+
+.col-6 {
+    width: 50%;
+}
+
+
+/* ==========*/
+
+.col-7 {
+    width: 58.33333%
+}
+
+.col-8 {
+    width: 66.66667%
+}
+
+.col-9 {
+    width: 75%;
+}
+
+
+/* ----------- */
+
+.col-10 {
+    width: 83.33333%
+}
+
+.col-11 {
+    width: 91.66667%
+}
+
+.col-12 {
+    width: 100%;
+}
